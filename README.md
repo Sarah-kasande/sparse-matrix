@@ -3,16 +3,22 @@ Sparse Matrix Operations
 This project implements a Sparse Matrix class and several matrix operations (addition, subtraction, multiplication) on sparse matrices read from text files. It is designed to efficiently handle large matrices with mostly zero elements, storing only the non-zero entries.
 
 Features
+
 SparseMatrix Class: Handles sparse matrices, including reading from files, getting and setting elements, and performing matrix operations.
 
-Matrix Operations: Supports matrix addition, subtraction, and multiplication.
+Matrix Operations:
 
-File Handling: Read and write sparse matrices to text files.
+Supports matrix addition, subtraction, and multiplication.
+
+File Handling:
+
+Read and write sparse matrices to text files.
 
 User Interaction: Allows users to choose matrices and perform operations through a simple interface.
 
 git clone https://github.com/Sarah-kasande/sparse-matrix
 Navigate to the project directory:
+
 
 bash
 Copy
@@ -68,10 +74,7 @@ Output Files
 The result of addition will be saved in result_addition.txt.
 The result of subtraction will be saved in result_subtraction.txt.
 The result of multiplication will be saved in result_multiplication.txt.
-Example Code
-python
-Copy
-Edit
+
 # Example of creating and using SparseMatrix
 matrix1 = SparseMatrix(matrix_file_path="matrix1.txt")
 matrix2 = SparseMatrix(matrix_file_path="matrix2.txt")
